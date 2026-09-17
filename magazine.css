@@ -4653,6 +4653,10 @@ body.clean-capture .mag-workspace {
   }
 }
 
+/* p.13 - foto finale un po' piu grande */
+#spread-6 .conclusion-hero { grid-template-columns: minmax(0, 1fr) 310px; }
+#spread-6 .conclusion-img { max-height: 470px; }
+
 /* ==========================================================================
    TELA FISSA 16:9 — ogni spread è progettato a 1680x945 e scalato in blocco
    (--mag-scale è calcolato in magazine.html in base allo spazio disponibile).
